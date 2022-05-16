@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    &__link{
+        list-style: none;
+        padding: 0px 10px;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover{
+            color: $color-primary;
+        }
+    }
+}
+

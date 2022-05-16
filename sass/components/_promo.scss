@@ -1,0 +1,25 @@
+.promo {
+    padding: 30px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content{
+        padding-right: 65px;
+    }
+    &__text {
+        margin: 30px 0px 45px;
+        max-width: 486px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    &__buttons > *{
+        margin-right: 44px;
+    }
+}
+
+

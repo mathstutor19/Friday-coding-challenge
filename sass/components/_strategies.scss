@@ -1,0 +1,17 @@
+.strategies{
+   padding-top: 34px;
+   &__title{
+       margin-bottom: 14px;
+   }
+   &__description{
+       margin-bottom: 24px;
+   }
+   &__tags{
+       margin-bottom: 31px;
+   }
+}
+.strategy{
+    &__tag__wrappper{
+        padding: 24px 34px 26px;
+    }
+}
